@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第七十四章 瞧这个人</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">第一卷</li><li class="chapter-item expanded "><a href="1_1.html">序章 保卫你的现代生活</a></li><li class="chapter-item expanded "><a href="1_2.html">第一章 反对一切</a></li><li class="chapter-item expanded "><a href="1_3.html">第三章 革命与反革命</a></li><li class="chapter-item expanded "><a href="1_4.html">第四章 亚洲最大真人线上</a></li><li class="chapter-item expanded "><a href="1_5.html">第五章 回忆往事</a></li><li class="chapter-item expanded "><a href="1_6.html">第六章 纯粹超越论现象学与亚洲科学的危机</a></li><li class="chapter-item expanded "><a href="1_7.html">第七章 因为试用期到了所以无法使用好看的字体了</a></li><li class="chapter-item expanded "><a href="1_8.html">第八章 震州事变（上）</a></li><li class="chapter-item expanded "><a href="1_9.html">第九章 震州事变（中）</a></li><li class="chapter-item expanded "><a href="1_10.html">第十章 震州事变（下）</a></li><li class="chapter-item expanded "><a href="1_11.html">第十一章 震州事变（四）</a></li><li class="chapter-item expanded "><a href="1_12.html">第十二章 李傕郭汜大交兵，贾诩一语乱长安</a></li><li class="chapter-item expanded "><a href="1_13.html">第十三章 没有人在意你的网易云音乐年终歌单</a></li><li class="chapter-item expanded "><a href="1_14.html">第十四章 坏的无限</a></li><li class="chapter-item expanded "><a href="1_15.html">第十五章 京观社会</a></li><li class="chapter-item expanded "><a href="1_16.html">第十六章 追忆似水年华</a></li><li class="chapter-item expanded "><a href="1_17.html">第十七章 追忆似水年华（下）</a></li><li class="chapter-item expanded "><a href="1_18.html">第十八章 红番区</a></li><li class="chapter-item expanded "><a href="1_19.html">第十九章 玻璃樽</a></li><li class="chapter-item expanded "><a href="1_20.html">第二十章 实践之王</a></li><li class="chapter-item expanded "><a href="1_21.html">第二十一章 实践之王（上）</a></li><li class="chapter-item expanded "><a href="1_22.html">第二十二章 实践之王（二）</a></li><li class="chapter-item expanded "><a href="1_23.html">第二十四章 宇宙大爆炸之前</a></li><li class="chapter-item expanded "><a href="1_24.html">第二十五章 尖锋时刻</a></li><li class="chapter-item expanded "><a href="1_25.html">第二十六章 低俗小说</a></li><li class="chapter-item expanded "><a href="1_26.html">第二十七章 杀死那个饮马口人</a></li><li class="chapter-item expanded "><a href="1_27.html">第二十八章 Сталь</a></li><li class="chapter-item expanded "><a href="1_28.html">第二十九章 看，是猫头鹰</a></li><li class="chapter-item expanded "><a href="1_29.html">第三十章 作为意志与表象的世界</a></li><li class="chapter-item expanded "><a href="1_30.html">第三十一章 宴会</a></li><li class="chapter-item expanded affix "><li class="part-title">第二卷</li><li class="chapter-item expanded "><a href="2_1.html">第三十二章 疾风传</a></li><li class="chapter-item expanded "><a href="2_2.html">第三十三章 尊师罗超闻</a></li><li class="chapter-item expanded "><a href="2_3.html">第三十四章 茎肾分析师</a></li><li class="chapter-item expanded "><a href="2_4.html">第三十五章 超级赛亚人</a></li><li class="chapter-item expanded "><a href="2_5.html">第三十六章 连连看</a></li><li class="chapter-item expanded "><a href="2_6.html">第三十七章 大战元泱界</a></li><li class="chapter-item expanded "><a href="2_7.html">第三十八章 A计划</a></li><li class="chapter-item expanded "><a href="2_8.html">第三十九章 breakingbad</a></li><li class="chapter-item expanded "><a href="2_9.html">第四十章 飞跃疯人院</a></li><li class="chapter-item expanded "><a href="2_10.html">第四十一章 哈哈</a></li><li class="chapter-item expanded "><a href="2_11.html">第四十二章 城市猎人</a></li><li class="chapter-item expanded "><a href="2_12.html">第四十三章 茶花女</a></li><li class="chapter-item expanded "><a href="2_13.html">第四十四章 布尔什维克</a></li><li class="chapter-item expanded "><a href="2_14.html">第四十五章 搏击俱乐部</a></li><li class="chapter-item expanded "><a href="2_15.html">第四十六章 必须保卫社会</a></li><li class="chapter-item expanded "><a href="2_16.html">第四十七章 只有神知道的世界</a></li><li class="chapter-item expanded "><a href="2_17.html">第四十八章 绷</a></li><li class="chapter-item expanded "><a href="2_18.html">第四十九章 靠嫩娘</a></li><li class="chapter-item expanded "><a href="2_19.html">第五十章 C.J</a></li><li class="chapter-item expanded "><a href="2_20.html">第五十一章 流水账</a></li><li class="chapter-item expanded "><a href="2_21.html">第五十二章 密室监禁</a></li><li class="chapter-item expanded "><a href="2_22.html">第五十三章 衷情作战</a></li><li class="chapter-item expanded "><a href="2_23.html">第五十四章 晚风</a></li><li class="chapter-item expanded "><a href="2_24.html">第五十五章 夜空</a></li><li class="chapter-item expanded "><a href="2_25.html">第五十六章 拷打</a></li><li class="chapter-item expanded "><a href="2_26.html">第五十七章 大海</a></li><li class="chapter-item expanded affix "><li class="part-title">第三卷</li><li class="chapter-item expanded "><a href="3_1.html">第五十八章 采访</a></li><li class="chapter-item expanded "><a href="3_2.html">第五十九章 哲学社</a></li><li class="chapter-item expanded "><a href="3_3.html">第六十章 猛鬼差馆</a></li><li class="chapter-item expanded "><a href="3_4.html">第六十一章 大的要来咯</a></li><li class="chapter-item expanded "><a href="3_5.html">第六十二章 无想的一刀</a></li><li class="chapter-item expanded "><a href="3_6.html">第六十三章 名师</a></li><li class="chapter-item expanded "><a href="3_7.html">第六十三章 无情连打</a></li><li class="chapter-item expanded "><a href="3_8.html">第六十四章 星丛</a></li><li class="chapter-item expanded "><a href="3_9.html">第六十五章 可公开的情报</a></li><li class="chapter-item expanded "><a href="3_10.html">第六十六章 查拉图斯特拉如是说</a></li><li class="chapter-item expanded "><a href="3_11.html">第六十七章 第九带派交响曲</a></li><li class="chapter-item expanded "><a href="3_12.html">第六十八章 社团文化节</a></li><li class="chapter-item expanded "><a href="3_13.html">第六十九章 狠活</a></li><li class="chapter-item expanded "><a href="3_14.html">第七十章 震州来客</a></li><li class="chapter-item expanded "><a href="3_15.html">第七十一章 新襄工益工益</a></li><li class="chapter-item expanded "><a href="3_16.html">第七十二章 世界开始搞笑啦</a></li><li class="chapter-item expanded "><a href="3_17.html">第七十三章 五条训诫</a></li><li class="chapter-item expanded "><a href="3_18.html" class="active">第七十四章 瞧这个人</a></li><li class="chapter-item expanded "><a href="3_19.html">第七十五章 怪慧星磁乙风</a></li><li class="chapter-item expanded "><a href="3_20.html">第七十六章 铁西区</a></li><li class="chapter-item expanded "><a href="3_21.html">第七十七章 肛的琴</a></li><li class="chapter-item expanded "><a href="3_22.html">第七十八章 奥特警备队向西部进发</a></li><li class="chapter-item expanded "><a href="3_23.html">第七十九章 九龙冰室</a></li><li class="chapter-item expanded "><a href="3_24.html">第八十章 威震逍遥津</a></li><li class="chapter-item expanded "><a href="3_25.html">第八十一章 非诚勿扰</a></li><li class="chapter-item expanded "><a href="3_26.html">第八十二章 流水账</a></li><li class="chapter-item expanded "><a href="3_27.html">第八十三章 头文字D</a></li><li class="chapter-item expanded "><a href="3_28.html">第八十四章 浪潮</a></li><li class="chapter-item expanded affix "><li class="part-title">第四卷</li><li class="chapter-item expanded "><a href="4_1.html">第八十五章 </a></li><li class="chapter-item expanded "><a href="4_2.html">第八十六章 </a></li><li class="chapter-item expanded "><a href="4_3.html">第八十七章 我来也</a></li><li class="chapter-item expanded "><a href="4_4.html">第八十八章 雨中曲</a></li><li class="chapter-item expanded "><a href="4_5.html">第八十九章 下雪了</a></li><li class="chapter-item expanded "><a href="4_6.html">第九十章 垃圾桶</a></li><li class="chapter-item expanded "><a href="4_7.html">第九十一章 解体概要</a></li><li class="chapter-item expanded "><a href="4_8.html">第九十二章 苍蝇</a></li><li class="chapter-item expanded "><a href="4_9.html">第九十三章 群魔</a></li><li class="chapter-item expanded "><a href="4_10.html">第九十四章 哦，冬妮娅</a></li><li class="chapter-item expanded "><a href="4_11.html">第九十五章 人类史前史</a></li><li class="chapter-item expanded "><a href="4_12.html">第九十六章 局外人</a></li><li class="chapter-item expanded "><a href="4_13.html">第九十七章 心的规律与自大狂</a></li><li class="chapter-item expanded "><a href="4_14.html">第九十八章 这首歌全乐清只有我一个人会唱</a></li><li class="chapter-item expanded "><a href="4_15.html">第九十九章 这里有玫瑰花 就在这里跳舞吧！</a></li><li class="chapter-item expanded "><a href="4_16.html">第一百章 点击输入文字</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="第七十四章"><a class="header" href="#第七十四章">﻿第七十四章</a></h2>
+<h1 id="瞧这个人"><a class="header" href="#瞧这个人">瞧这个人</a></h1>
+<p>我看到一大包一大包的塑料餐盒被搬上车后座，里面塞满了清一色的小鸡腿、青菜还有白的像蛆虫一样满地爬的米粒，有一股浓浓的海克斯科技感，让我想起去年暑假在厂门口购买的流水线快餐食品，几个戴眼镜的人爬上五菱宏光，然后把免费快餐的招牌挂在车窗上，付亦明他们联系到了几辆大巴，大巴上坐满了有说有笑嘻嘻哈哈的学生们，浩浩荡荡开往新襄工业园区。</p>
+<p>至于新襄师范学院，响应工厂送爱心﻿活动的学生寥寥，许是天气太热，不过主要原因是新襄师范学院太官僚了，是整个新襄市区封控得最厉害的，就算是向学院提交了联办的策划书，也只批准社员出学校——问题来了，登记在册的社员实际上只有我们几个，也就是说实际上只有我们能在外面溜达，我看了看自己的微信钱包，还有五十三块，够去网吧开十小时的机子，现在是早上九点，我突然觉得很自由，我竟然有十个小时可以自由支配与规划，一切都可以那么随心所欲，很久没体验过这种感觉了，上一次体验是在我高考结束后的那个暑假，可惜那时老东西让我滚去打暑假工了，总觉得亏炸了，说好惬意的两个月，﻿少一分少一秒都不是惬意。</p>
+<p>在qq群里看到了今天的安排，由于我们学校几乎没人报名，所以压根就没给哲学社安排什么活，但依然准许了我们跟拍，其它的细节我完全不清楚，也不知道付亦明这些人又是怎么打点的那些领导，这些东西对我来说完全是天方夜谭，我猜姜鸣哲也不清楚，因为社团所能接触到的最高段位也不过就是校社联，而且说实在的，强调这种可笑的区区校园里的权力结构是最欠杀的，就跟那些天天自以为左右逢源然后巴结学生会又巴结辅导员然后有个头衔和奖项或者当个预备党员就要使劲吹变个法子暗暗吹的奇异傻狗一样，这种人我是最看﻿不起的，早晚有一天把这些人的全家不分老幼全部杀掉……</p>
+<p>在扑面的热浪中，我莫名其妙就被拉上了开往工业区的大巴，这大巴依然是送爱心活动的大巴，坐满了新襄医学院的学生，一个都不认识，姜鸣哲他们跟着上一班大巴走了，我和李虹还有池大卞被他塞到这班大巴上，我总怀疑姜鸣哲是故意的，但他并不是出于恶意也没有什么私心，我怀疑他就是没事干而已。就这样我们三个人紧挨着坐在一起，看着一整车人叽叽喳喳讨论着，最主要的，如果平时是我和池大卞坐一起，那我们总是有的聊，但这次插了个李虹进来，结果就非常尴尬。</p>
+<p>﻿“请同学们车上戴好口罩！”一个人拿着喇叭高喊，于是全车纷纷戴上口罩，撕掉塑料封套的声音不绝于耳，而我忘带了，池大卞也没带，李虹默默从她兜里掏出一个口罩戴上，面对我们索要的手势，她无奈摇头表示自己也再没有了，只有用过的——我有一个大胆的想法那就是跟她说用过的也没事，我可以顺势要过来然后仔细观摩这口罩的背面，看看是否有嘴唇呼吸留下的微微褶皱烙印，然后用尽全力把它紧贴在我鼻子上，让我的嘴唇与那褶皱明显的地方对齐，并重复同样的呼吸动作……当然这是不可能说出来的想法，而且我完全不想戴口罩，天气本来就闷热，戴口罩更闷，这﻿谁受得了。</p>
+<p>我听到发动机启动的声音，眼前的风景也开始移形换影，沿途的一切都是老三样：田野阡陌、车流行人、摊位店面。突然我感觉有人盯着我，于是回头一望，一个完全不认识的人拿着一个本子攥着笔边记录边注视着我们，十分奇特，我好奇他在记些什么。</p>
+<p>“同学你在记录什么啊？”我略倾起身，试图眺望到这本子上的内容。“你们是哪个专业哪个班的，为什么不戴口罩”她质问到。</p>
+<p>我这才回想起来，她应该是搞错了，以为我们是新襄医学院的，池大卞非常不好意思地解释说他不是医学院的，然﻿而对方依旧犟嘴：“就算不是一个学校的，还是要戴口罩的”，于是又转问我是哪个专业哪个班的。</p>
+<p>“您好我是20殡葬专业2班的”我非常镇静地说到。</p>
+<p>“我们学校有殡葬专业吗？”她转头询问。</p>
+<p>“压根没有”</p>
+<p>“同学你到底是哪个专业的”</p>
+<p>“不好意思我也是别的学校的……”“那也要戴口罩。”她向别人要了两个蓝皮口罩来给我们，于是我们连连致谢。我撕开封膜，把口罩戴到脸上，一股窒息感扑面而来，随后就是难以言表的不适，大热天密封的车舱像是个闷气罐，﻿戴上口罩更难受了。我不明白为啥要强制戴口罩，要是你真想防控，为啥不上车之前让我们看健康码和核酸证明，这不比强制戴口罩更好？简直是蠢猪。我看向池大卞，他也有点绷不住了，把口罩往下拉了一点，让自己不那么难受，我又看向李虹，她就像个石像一样雷打不动，仿佛在静坐战一样。</p>
+<p>“咦，你不难受吗”我问到。</p>
+<p>“入乡随俗吧，大家都在戴着，摘了很没有礼貌”李虹淡淡回复。</p>
+<p>反正摘也摘不了，那就忍着吧，我尝试心平气和，感受车内流淌着的一丝丝一缕缕的气息，夹杂着蒸发后的汗水、经过口罩过滤的唾液和焦躁的呼吸声，﻿我渐渐的疲软下来，觉得整个人很放松，甚至有点想睡觉——现在这个温度确实适合睡觉，我恍惚之中缓缓合上双眼，眼前的一切都变成一团团的雾气，随后袭来的是后脑勺倚靠在塑料座椅上的不适感，我实在是太困了，这种不适感令人躁动，迷迷糊糊之中我肆意的摆头和调整坐姿，试图睡的舒服一点，然而总是不如意，直到我的侧脸颊突然碰到一个软绵绵却又硬邦邦的东西，感受到布料的粗糙以及一点点的温度，这种感受很舒服，令人安心，甚至时不时感受到这东西的微微挪动，摇摇晃晃像是宝宝的婴儿床一样——于是我把脸枕在那上面进入了香甜的梦乡，马达的轰鸣声驶﻿入我的梦中，梦中所有人物张口闭口都在说着马达话，那是一种奇怪的方言，他们除了说“轰轰轰轰”之外就不会说别的东西了，而且不同的人说话的音频也是不同的，有的人说话是“轰↑轰轰↓”，有的人是“轰↓轰↓轰↓”，总之这很奇特，梦的其它内容我忘完了，只知道迷离之中我突然被一阵急促的触动吵醒，有什么玩意在不停扇我脑袋，给我吵的睡不着，我只得慢吞吞把脑袋抬起来，环顾四周，试图弄清楚发生了什么。</p>
+<p>“不是你枕我肩上睡就算了，你口水流一地干啥呀，都流我裤子上了。”池大卞非常生气。</p>
+<p>﻿我一惊，随后看向自己眼睛下方，还真是，我看到一条好长好长的哈喇星子从嘴巴里哗啦啦流下来，跟池大卞裤子黏一起了，使劲一抬头，唾液就唰一下拉成好长一个长条，非常非常恶心，晶银剔透的，在阳光映照下闪闪发亮。李虹噗嗤一下笑出来，这好像是我第一次看到她笑，我本来觉得她是个很古板的人，随后她就从兜里掏出纸巾来让我擦一下，接过纸巾我把嘴唇周边黏糊糊湿漉漉的地方都擦了一遍，有些口水甚至干裂结痂了，实在是不雅观。睡醒之后无事可干，大巴依然在嘟嘟嘟开着，我躺在位置上非常无聊，池大卞和李虹聊的倒是很开心，他们好像在﻿聊一些理论上的东西，我凑近了听，是在说什么政治经济学批判之类的，还有最近在看什么书，我得说完全不感兴趣，不是说我是个西马的原因，实际上我压根不是西马，也不是任何别的东西，幼童们才喜欢玩这种政治光谱游戏，实际上很多主义完全不具有实际可考察的意义，只是围绕着某个历史人物的所作所为（尤其历史事实总是争议的，从而让这些各种主义具备了彼此矛盾的条件）复制粘贴然后玩政治光谱游戏罢了，我完全无法设想一个自称为国社的人如果他不会蠢到真的去宣传要弄个集中营反人道让自己独树一帜，那么他和威社有什么区别，如果他们又承认这种政治现﻿实主义，那么他们和任何马克思主义（以及任何新自由主义）可能造成的后果都没区别。</p>
+<p>“我最近在看列宁的《国家与革命》”池大卞自豪地介绍自己最近的书单，李虹也点头夸赞，可能她并不知晓内情，我觉得池大卞之所以痴迷于看《国家与革命》不是因为他非常想把这些东西钻研透彻，而是他只能看懂这些书，说实话这书我半年前就看过了，我唯一记得的就是第一段话，大致意思我忘了，大概就是说马克思的学说在今天的遭遇正如历史上被压迫阶级在解放斗争中的革命思想家和领袖的学说常有的遭遇一样。当伟大的革命家在世时，压迫阶级总是﻿不断迫害他们，以最恶毒的敌意、最疯狂的仇恨、最放肆的造谣和诽谤对待他们的学说。在他们逝世以后，便试图把他们变为无害的神像，可以说是把他们偶像化，赋予他们的名字某种荣誉，以便“安慰”和愚弄被压迫阶级，同时却阉割革命学说的内容，磨去它的革命锋芒，把它庸俗化。现在资产阶级和工人运动中的机会主义者在对马克思主义作这种“加工”的事情上正一致起来。他们忘记、抹杀和歪曲这个学说的革命方面，革命灵魂。他们把资产阶级可以接受或者觉得资产阶级可以接受的东西放在第一位来加以颂扬。现在，一切社会沙文主义者都成了马克思主义者。﻿那些德国的资产阶级学者，昨天还是剿灭马克思主义的专家，现在却愈来愈频繁地谈论起德意志民族的马克思来了，似乎……</p>
+<p>“似乎马克思培育出了为进行掠夺战争而组织得非常出色的工人联合会……”李虹说到。</p>
+<p>“对，就是这段，这一段相当好，这一段就是说它恰恰证明了目前的赛力斯是修正主义，大肆鼓吹什么民族主义，把马克思和儒教结合在一起想要通三统！”池大卞又开始长篇大论了，虽然他说的确实没啥可挑剔的地方，不过我依然很惊讶李虹对于列宁原典的把握程度，她竟然能复诵，我实在是太惊讶了，再﻿结合之前李虹的种种表现，我怀疑她是真正深藏不露的经学大师，在她面前绝对不能乱口嗨一些自己对马列的理解，否则会马上被军训的——不过出于再三确认的必要，我要再试探几下。</p>
+<p>“你最近在看什么书？”我主动出击，把池大卞要问的给问了。</p>
+<p>“斯大林的《马克思主义与民族问题》和他讨论语言学的那个”李虹数着手指开始清点起来“还有他那篇苏联的社会主义经济建设问题，斯选就这几篇能看的，但是这几篇都是非常不错的”。我转头问池大卞看过这些没有，他表示对斯大林完全不感兴趣，然而池大卞就算在感兴趣的领域也被李虹军训，李﻿虹可以滔滔不绝列举原文还有表明自己的看法甚至把这些导师的文本相当娴熟地做比对，池大卞完全做不到。除非你问池大卞一些经典稗官野史或者文革秘史，他才会娓娓道来，但这些难度太低了，因为这些对于史料和结论的复读只需要有记忆力看过书就能做到，其实我也差不多，我不擅长表达观点，但我非常擅长讲故事，我以前很喜欢跟身边的人添油加醋讲一些外网上看来的稗官野史，例如什么火烧钦差还有朝鲜战争想吃鸡蛋结果吃了汽油弹之类的，那是非常的绘声绘色，也许我有这方面的才能，以后可以当个讲故事的人写写小说之类的，谁知道呢。</p>
+<p>﻿不知不觉中，池大卞和李虹聊到了culturerevolution，他们聊的太投入乃至进入旁若无人的境地，可在我以及周围的人听来实在是太爆了，我本想打断一下他们，但想想还是算了，看到他们这么火热，我也想参与进去。</p>
+<p>“其实文革并不能算革命，只不过是用革命委员会替代了常设政府机构，已经停摆的基层政府无法履行的职能就只能交由解放军和革命委员会来做……说到底，一开始的目标依然没达到”我刚发表完彻底忘记了从哪里看来的高论，李虹就反驳说：“不对的，这只是常人惯见而已”，一旁附和我的高论不断说“对，确实是这样”的池大卞马上闭﻿嘴，我们都看着李虹有什么高论，她列举了一些文革时期取得的惊人建设成就还有当时为什么无法达到目标的限制，总结起来就是没办法，这是自然的，我开始有点无聊，因为李虹似乎也只是在复读北大马会那些经典畅销书的观点顺带配上一些她刻在脑子里的数据，例如76年前后的各种产值对比，她相当有理有据，我们都很服气。</p>
+<p>“所以毛主席后来说，culturerevolution不可能只造一次，后面要多来几次，就是这个道理。”李虹结束了他的发言，我们频频点头，我已经知道她是个经学大师了，然而她对目前有什么看法和建议呢，熟悉我的读者都知道，我﻿是个很务实的人，我很喜欢询问那些大师们他们对于当下都有什么看法和见解，以及更重要的，他们觉得该怎么办。“你觉得现在要怎么做啊？”我非常谦逊地问到。</p>
+<p>李虹呆了几秒，似乎没想到我会问这样的问题，她把口罩摘下深深吸了口气再戴上：“那你还要多看列宁的书，读懂了列选你就不会疑惑了”。</p>
+<p>“什么意思？”</p>
+<p>“现在还没到社会矛盾彻底爆发的时候，所以说还没有形成革命战争的条件，目前的重点也只能是群众工作这方面，说到底不还是那几个方针么，融工融学还有……”</p>
+<p>﻿“明白了”我打断她的话。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="3_17.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="3_19.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="3_17.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="3_19.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
